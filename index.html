@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Outbound Pacet Terbaik, Corporate & Anak - OutboundPacet.id</title>
-    <meta name="description" content="Layanan Outbound Pacet Mojokerto terpercaya. Menyediakan paket Corporate Team Building, Gathering, Rafting, LDKS, dan Outbound Edukasi Anak. Fasilitator profesional.">
-    <meta name="keywords" content="outbound pacet, outbound mojokerto, paket outbound pacet, team building pacet, gathering perusahaan, rafting pacet, outbound anak pacet, ldks pacet, field trip sekolah">
+    <title>Outbound Pacet Terbaik, Corporate, Rafting & Anak - OutboundPacet.id</title>
+    <meta name="description" content="Layanan Outbound Pacet Mojokerto terpercaya. Menyediakan paket Corporate Team Building, Gathering, Rafting, Paintball, LDKS, dan Outbound Edukasi Anak.">
+    <meta name="keywords" content="outbound pacet, outbound mojokerto, paket outbound pacet, team building pacet, gathering perusahaan, rafting pacet, paintball pacet, obech avontur, tos adventure, outbound anak pacet, ldks pacet, field trip sekolah, harga outbound pacet">
     <meta name="author" content="OutboundPacet.id">
 
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <script>
         tailwind.config = {
@@ -34,6 +34,18 @@
             background-size: cover;
             background-position: center;
         }
+        /* Transisi halus untuk FAQ */
+        .faq-answer {
+            transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+        }
+        .faq-answer.open {
+            max-height: 500px;
+            opacity: 1;
+            padding-top: 1rem;
+        }
     </style>
 </head>
 <body class="font-sans text-gray-800 antialiased bg-gray-50">
@@ -44,14 +56,15 @@
                 <div class="flex-shrink-0">
                     <a href="#" class="text-2xl font-bold text-primary tracking-tight">OutboundPacet<span class="text-secondary">.id</span></a>
                 </div>
-                <nav class="hidden md:flex space-x-8">
+                <nav class="hidden lg:flex space-x-8">
                     <a href="#beranda" class="text-gray-600 hover:text-primary font-medium transition-colors">Beranda</a>
-                    <a href="#layanan" class="text-gray-600 hover:text-primary font-medium transition-colors">Layanan</a>
-                    <a href="#paket" class="text-gray-600 hover:text-primary font-medium transition-colors">Paket Outbound</a>
-                    <a href="#kontak" class="text-gray-600 hover:text-primary font-medium transition-colors">Kontak</a>
+                    <a href="#layanan" class="text-gray-600 hover:text-primary font-medium transition-colors">Keunggulan</a>
+                    <a href="#paket" class="text-gray-600 hover:text-primary font-medium transition-colors">Paket</a>
+                    <a href="#venue" class="text-gray-600 hover:text-primary font-medium transition-colors">Lokasi</a>
+                    <a href="#faq" class="text-gray-600 hover:text-primary font-medium transition-colors">FAQ</a>
                 </nav>
                 <div class="hidden md:flex">
-                    <a href="https://wa.me/6281234567890" target="_blank" class="bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-full font-semibold transition-colors shadow-lg shadow-green-500/30">
+                    <a href="https://wa.me/62895400520827" target="_blank" class="bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-full font-semibold transition-colors shadow-lg shadow-green-500/30">
                         Hubungi Kami
                     </a>
                 </div>
@@ -66,15 +79,28 @@
                 Bangun Sinergi Tim Anda di <br class="hidden md:block"> <span class="text-primary">Alam Terbuka Pacet</span>
             </h1>
             <p class="mt-4 text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-                Layanan Corporate Team Building, Employee Gathering, Rafting, hingga Outbound Edukasi Anak. Solusi rekreasi dan edukasi terbaik bersama fasilitator bersertifikat.
+                Layanan Corporate Team Building, Gathering, Rafting, Paintball, hingga Outbound Edukasi Anak. Solusi rekreasi dan edukasi terbaik bersama fasilitator bersertifikat.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#paket" class="bg-primary hover:bg-green-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors shadow-lg shadow-green-500/30">
                     Lihat Paket Kami
                 </a>
-                <a href="https://wa.me/6281234567890" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-secondary px-8 py-4 rounded-full font-bold text-lg transition-colors">
+                <a href="https://wa.me/62895400520827" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-secondary px-8 py-4 rounded-full font-bold text-lg transition-colors">
                     Konsultasi Gratis
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-6">Telah dipercaya oleh berbagai instansi & sekolah</p>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-300">
+                <div class="text-2xl font-bold text-gray-400">PERTAMINA</div>
+                <div class="text-2xl font-bold text-gray-400">TELKOM</div>
+                <div class="text-2xl font-bold text-gray-400">BANK JATIM</div>
+                <div class="text-2xl font-bold text-gray-400">UNESA</div>
+                <div class="text-2xl font-bold text-gray-400">SDIT AL-AMIEN</div>
             </div>
         </div>
     </section>
@@ -89,7 +115,7 @@
                 <div class="p-8 border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition-shadow bg-gray-50 text-center">
                     <div class="w-16 h-16 bg-green-100 text-primary rounded-full flex items-center justify-center mx-auto mb-6 text-2xl">🏆</div>
                     <h3 class="text-xl font-bold text-secondary mb-3">Fasilitator Tersertifikasi</h3>
-                    <p class="text-gray-600">Tim kami terdiri dari praktisi outbound berpengalaman yang bersertifikat BNSP, siap melayani audiens dari level direksi hingga anak-anak.</p>
+                    <p class="text-gray-600">Tim praktisi outbound berpengalaman bersertifikat BNSP, siap melayani audiens dari level direksi hingga anak-anak.</p>
                 </div>
                 <div class="p-8 border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition-shadow bg-gray-50 text-center">
                     <div class="w-16 h-16 bg-green-100 text-primary rounded-full flex items-center justify-center mx-auto mb-6 text-2xl">🎯</div>
@@ -97,9 +123,9 @@
                     <p class="text-gray-600">Rancangan program yang disesuaikan (tailor-made) dengan core value instansi atau kurikulum edukasi sekolah Anda.</p>
                 </div>
                 <div class="p-8 border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition-shadow bg-gray-50 text-center">
-                    <div class="w-16 h-16 bg-green-100 text-primary rounded-full flex items-center justify-center mx-auto mb-6 text-2xl">🏕️</div>
-                    <h3 class="text-xl font-bold text-secondary mb-3">Fasilitas Premium & Aman</h3>
-                    <p class="text-gray-600">Bekerjasama dengan venue dan resort terbaik di Pacet yang menerapkan standar keamanan tinggi (Zero Risk) untuk semua usia.</p>
+                    <div class="w-16 h-16 bg-green-100 text-primary rounded-full flex items-center justify-center mx-auto mb-6 text-2xl">🛡️</div>
+                    <h3 class="text-xl font-bold text-secondary mb-3">Keamanan Terjamin</h3>
+                    <p class="text-gray-600">Bekerjasama dengan venue dan resort terbaik yang menerapkan standar keamanan tinggi (Zero Risk) untuk semua usia.</p>
                 </div>
             </div>
         </div>
@@ -109,11 +135,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-secondary">Pilihan Paket Outbound Pacet</h2>
-                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Tersedia berbagai pilihan paket eksklusif yang dirancang untuk korporasi, instansi, keluarga, hingga instansi pendidikan.</p>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Berbagai pilihan paket eksklusif yang dirancang untuk korporasi, instansi, keluarga, hingga institusi pendidikan.</p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-gray-100 flex flex-col">
                     <div class="h-40 bg-gray-300 bg-[url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center"></div>
                     <div class="p-6 flex-grow flex flex-col">
@@ -124,7 +149,7 @@
                             <li class="flex items-start">✓ <span class="ml-2">Problem Solving Challenges</span></li>
                             <li class="flex items-start">✓ <span class="ml-2">Fasilitator & Alat Lengkap</span></li>
                         </ul>
-                        <a href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20Paket%20Corporate%20Team%20Building" class="block w-full text-center bg-gray-100 hover:bg-primary hover:text-white text-secondary font-semibold py-3 rounded-xl transition-colors">Tanya Harga</a>
+                        <a href="https://wa.me/62895400520827?text=Halo%20saya%20tertarik%20dengan%20Paket%20Corporate%20Team%20Building" class="block w-full text-center bg-gray-100 hover:bg-primary hover:text-white text-secondary font-semibold py-3 rounded-xl transition-colors">Tanya Harga</a>
                     </div>
                 </div>
 
@@ -136,10 +161,10 @@
                         <p class="text-gray-500 mb-6 text-sm">Mencairkan suasana dan mempererat kebersamaan tim.</p>
                         <ul class="space-y-3 mb-8 text-gray-600 text-sm flex-grow">
                             <li class="flex items-start">✓ <span class="ml-2">Outbound Fun Games</span></li>
-                            <li class="flex items-start">✓ <span class="ml-2">Live Music / Electone</span></li>
+                            <li class="flex items-start text-primary font-semibold">✓ <span class="ml-2">War Game: Paintball (Opsional)</span></li>
                             <li class="flex items-start">✓ <span class="ml-2">Gala Dinner & Barbeque</span></li>
                         </ul>
-                        <a href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20Paket%20Employee%20Gathering" class="block w-full text-center bg-primary text-white font-semibold py-3 rounded-xl hover:bg-green-700 transition-colors shadow-lg shadow-green-500/30">Tanya Harga</a>
+                        <a href="https://wa.me/62895400520827?text=Halo%20saya%20tertarik%20dengan%20Paket%20Employee%20Gathering%20dan%20Paintball" class="block w-full text-center bg-primary text-white font-semibold py-3 rounded-xl hover:bg-green-700 transition-colors shadow-lg shadow-green-500/30">Tanya Harga</a>
                     </div>
                 </div>
 
@@ -153,24 +178,167 @@
                             <li class="flex items-start">✓ <span class="ml-2">Rafting Sungai Kromong</span></li>
                             <li class="flex items-start">✓ <span class="ml-2">Rescue Team & Asuransi</span></li>
                         </ul>
-                        <a href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20Paket%20Outbound%20dan%20Rafting" class="block w-full text-center bg-gray-100 hover:bg-primary hover:text-white text-secondary font-semibold py-3 rounded-xl transition-colors">Tanya Harga</a>
+                        <a href="https://wa.me/62895400520827?text=Halo%20saya%20tertarik%20dengan%20Paket%20Outbound%20dan%20Rafting" class="block w-full text-center bg-gray-100 hover:bg-primary hover:text-white text-secondary font-semibold py-3 rounded-xl transition-colors">Tanya Harga</a>
                     </div>
                 </div>
 
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-gray-100 flex flex-col">
                     <div class="h-40 bg-gray-300 bg-[url('https://images.unsplash.com/photo-1472586662442-3eefd4cb0d20?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center"></div>
                     <div class="p-6 flex-grow flex flex-col">
-                        <h3 class="text-xl font-bold text-secondary mb-2">Outbound Edukasi Anak</h3>
+                        <h3 class="text-xl font-bold text-secondary mb-2">Outbound Anak / LDKS</h3>
                         <p class="text-gray-500 mb-6 text-sm">Program field trip menyenangkan untuk sekolah (TK/SD/SMP).</p>
                         <ul class="space-y-3 mb-8 text-gray-600 text-sm flex-grow">
                             <li class="flex items-start">✓ <span class="ml-2">Edukasi Alam & Bertani</span></li>
                             <li class="flex items-start">✓ <span class="ml-2">Fun & Character Building</span></li>
                             <li class="flex items-start">✓ <span class="ml-2">Fasilitator Ramah Anak</span></li>
                         </ul>
-                        <a href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20Paket%20Outbound%20Anak%20Edukasi" class="block w-full text-center bg-gray-100 hover:bg-primary hover:text-white text-secondary font-semibold py-3 rounded-xl transition-colors">Tanya Harga</a>
+                        <a href="https://wa.me/62895400520827?text=Halo%20saya%20tertarik%20dengan%20Paket%20Outbound%20Anak%20Edukasi" class="block w-full text-center bg-gray-100 hover:bg-primary hover:text-white text-secondary font-semibold py-3 rounded-xl transition-colors">Tanya Harga</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="venue" class="py-20 bg-white border-y border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-secondary">Pilihan Lokasi & Basecamp Terfavorit</h2>
+                <div class="w-24 h-1 bg-primary mx-auto mt-4 rounded"></div>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Kami bekerjasama dengan berbagai basecamp dan resort terbaik di Pacet untuk menyesuaikan dengan tema dan kapasitas acara Anda.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow bg-gray-50 flex items-start">
+                    <div class="w-12 h-12 bg-green-100 text-primary rounded-lg flex items-center justify-center mr-4 text-xl flex-shrink-0">🏕️</div>
+                    <div>
+                        <h3 class="font-bold text-secondary mb-1">Obech Avontur</h3>
+                        <p class="text-sm text-gray-600">Area hutan pinus yang asri, sangat ideal untuk kegiatan outbound training, camping, dan high rope.</p>
+                    </div>
+                </div>
+                <div class="p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow bg-gray-50 flex items-start">
+                    <div class="w-12 h-12 bg-green-100 text-primary rounded-lg flex items-center justify-center mr-4 text-xl flex-shrink-0">🚣</div>
+                    <div>
+                        <h3 class="font-bold text-secondary mb-1">TOS Adventure Pacet</h3>
+                        <p class="text-sm text-gray-600">Basecamp rafting terpopuler dengan fasilitas lengkap, titik awal pengarungan jeram Sungai Kromong yang menantang.</p>
+                    </div>
+                </div>
+                <div class="p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow bg-gray-50 flex items-start">
+                    <div class="w-12 h-12 bg-green-100 text-primary rounded-lg flex items-center justify-center mr-4 text-xl flex-shrink-0">🏨</div>
+                    <div>
+                        <h3 class="font-bold text-secondary mb-1">Resort & Hotel Premium</h3>
+                        <p class="text-sm text-gray-600">Bermitra dengan villa dan hotel berbintang di area Pacet & Trawas untuk kenyamanan Executive Gathering.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-secondary">Galeri Keseruan Kami</h2>
+                <div class="w-24 h-1 bg-primary mx-auto mt-4 rounded"></div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80" alt="Team Building Pacet" class="rounded-lg shadow hover:opacity-80 transition duration-300 object-cover h-48 w-full">
+                <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=600&q=80" alt="Gathering Perusahaan" class="rounded-lg shadow hover:opacity-80 transition duration-300 object-cover h-48 w-full">
+                <img src="https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?auto=format&fit=crop&w=600&q=80" alt="Outbound Edukasi Anak" class="rounded-lg shadow hover:opacity-80 transition duration-300 object-cover h-48 w-full">
+                <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=600&q=80" alt="Rafting Pacet" class="rounded-lg shadow hover:opacity-80 transition duration-300 object-cover h-48 w-full">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-secondary">Apa Kata Klien Kami?</h2>
+                <div class="w-24 h-1 bg-primary mx-auto mt-4 rounded"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm relative">
+                    <div class="text-primary text-4xl absolute top-4 right-6 opacity-20">"</div>
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-gray-600 mb-6 italic">"Acaranya sangat seru dan berkesan! Tim fasilitator sangat profesional mengendalikan 200 karyawan kami. Paintball-nya juga seru maksimal!"</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full mr-4 flex items-center justify-center font-bold text-gray-500">BS</div>
+                        <div>
+                            <h4 class="font-bold text-secondary">Bpk. Budi Santoso</h4>
+                            <p class="text-sm text-gray-500">HR Manager, PT Bina Mandiri</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm relative">
+                    <div class="text-primary text-4xl absolute top-4 right-6 opacity-20">"</div>
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-gray-600 mb-6 italic">"Paket LDKS untuk anak-anak sangat edukatif. Fasilitatornya ramah dan telaten mengarahkan siswa. Sampai jumpa tahun depan!"</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full mr-4 flex items-center justify-center font-bold text-gray-500">IR</div>
+                        <div>
+                            <h4 class="font-bold text-secondary">Ibu Ratna</h4>
+                            <p class="text-sm text-gray-500">Kepala Sekolah SMPN 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm relative">
+                    <div class="text-primary text-4xl absolute top-4 right-6 opacity-20">"</div>
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-gray-600 mb-6 italic">"Rafting di TOS Adventure mantap! Safety-nya benar-benar dijaga oleh tim. Makanan dan fasilitas resort juga sangat memuaskan."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full mr-4 flex items-center justify-center font-bold text-gray-500">DP</div>
+                        <div>
+                            <h4 class="font-bold text-secondary">Dimas Pratama</h4>
+                            <p class="text-sm text-gray-500">Ketua Panitia Gathering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-secondary">Pertanyaan yang Sering Diajukan (FAQ)</h2>
+                <div class="w-24 h-1 bg-primary mx-auto mt-4 rounded"></div>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="border border-gray-200 rounded-lg bg-white shadow-sm p-2">
+                    <button class="w-full text-left px-4 py-3 font-semibold text-secondary flex justify-between items-center focus:outline-none hover:text-primary transition-colors" onclick="toggleFaq(this)">
+                        Apakah kegiatan outbound aman untuk anak-anak sekolah?
+                        <span class="text-primary text-xl transform transition-transform duration-300">+</span>
+                    </button>
+                    <div class="faq-answer px-4 text-gray-600 text-sm">
+                        Sangat aman. Kami menerapkan prinsip Zero Risk dan menyediakan perlengkapan keamanan berstandar. Fasilitator kami juga dilatih khusus untuk mendampingi anak-anak usia TK hingga SMP dengan metode yang ramah dan menyenangkan.
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg bg-white shadow-sm p-2">
+                    <button class="w-full text-left px-4 py-3 font-semibold text-secondary flex justify-between items-center focus:outline-none hover:text-primary transition-colors" onclick="toggleFaq(this)">
+                        Berapa minimal jumlah peserta untuk reservasi?
+                        <span class="text-primary text-xl transform transition-transform duration-300">+</span>
+                    </button>
+                    <div class="faq-answer px-4 text-gray-600 text-sm">
+                        Minimal peserta untuk paket standar kami adalah 30 orang. Namun, jika jumlah kelompok Anda kurang dari itu, silakan hubungi kami untuk mendiskusikan penyesuaian harga dan program.
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg bg-white shadow-sm p-2">
+                    <button class="w-full text-left px-4 py-3 font-semibold text-secondary flex justify-between items-center focus:outline-none hover:text-primary transition-colors" onclick="toggleFaq(this)">
+                        Apakah bisa request lokasi di Obech Avontur atau TOS?
+                        <span class="text-primary text-xl transform transition-transform duration-300">+</span>
+                    </button>
+                    <div class="faq-answer px-4 text-gray-600 text-sm">
+                        Tentu saja bisa! Kami merupakan partner resmi dari berbagai basecamp terkemuka di Pacet termasuk Obech Avontur dan TOS Adventure. Kami bisa mengatur seluruh kebutuhan acara Anda di lokasi tersebut.
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg bg-white shadow-sm p-2">
+                    <button class="w-full text-left px-4 py-3 font-semibold text-secondary flex justify-between items-center focus:outline-none hover:text-primary transition-colors" onclick="toggleFaq(this)">
+                        Apakah harga paket sudah termasuk penginapan?
+                        <span class="text-primary text-xl transform transition-transform duration-300">+</span>
+                    </button>
+                    <div class="faq-answer px-4 text-gray-600 text-sm">
+                        Kami memiliki opsi paket One-Day (tanpa menginap) dan paket 2D1N / 3D2N yang sudah *include* hotel, villa, atau glamping sesuai dengan *budget* instansi Anda.
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -179,35 +347,62 @@
         <div class="max-w-4xl mx-auto px-4 text-center">
             <h2 class="text-3xl font-bold text-white mb-6">Siap Merencanakan Kegiatan Outbound Anda?</h2>
             <p class="text-gray-400 mb-10 text-lg">Hubungi tim konsultan kami sekarang untuk mendapatkan penawaran spesial dan proposal kegiatan gratis yang disesuaikan dengan kebutuhan instansi atau sekolah Anda.</p>
-            <a href="https://wa.me/6281234567890" class="inline-flex items-center bg-primary hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors shadow-lg shadow-green-500/30">
-                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            <a href="https://wa.me/62895400520827" class="inline-flex items-center bg-primary hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors shadow-lg shadow-green-500/30">
                 Chat via WhatsApp
             </a>
         </div>
     </section>
 
-    <footer id="kontak" class="bg-gray-900 text-gray-400 py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
                 <h3 class="text-2xl font-bold text-white mb-4">OutboundPacet<span class="text-primary">.id</span></h3>
-                <p class="mb-4">Partner strategis Anda untuk pengembangan SDM, team building, dan edukasi anak melalui metode experiential learning di alam terbuka Pacet.</p>
+                <p class="mb-4 text-sm">Partner strategis Anda untuk pengembangan SDM, team building, dan edukasi anak melalui metode experiential learning di alam terbuka Pacet.</p>
             </div>
+            
             <div>
                 <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Hubungi Kami</h4>
-                <ul class="space-y-2">
+                <ul class="space-y-2 text-sm">
                     <li>📍 Jl. Raya Pacet, Mojokerto, Jawa Timur</li>
-                    <li>📞 0812-3456-7890</li>
+                    <li>📞 0895-4005-20827</li>
                     <li>✉️ info@outboundpacet.id</li>
                 </ul>
             </div>
+            
             <div>
                 <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Area Layanan</h4>
                 <div class="flex flex-wrap gap-2">
-                    <span class="bg-gray-800 px-3 py-1 rounded text-sm">Pacet</span>
-                    <span class="bg-gray-800 px-3 py-1 rounded text-sm">Trawas</span>
-                    <span class="bg-gray-800 px-3 py-1 rounded text-sm">Mojokerto</span>
-                    <span class="bg-gray-800 px-3 py-1 rounded text-sm">Batu / Malang</span>
+                    <span class="bg-gray-800 px-3 py-1 rounded text-xs border border-gray-700">Pacet</span>
+                    <span class="bg-gray-800 px-3 py-1 rounded text-xs border border-gray-700">Trawas</span>
+                    <span class="bg-gray-800 px-3 py-1 rounded text-xs border border-gray-700">Mojokerto</span>
+                    <span class="bg-gray-800 px-3 py-1 rounded text-xs border border-gray-700">Batu / Malang</span>
                 </div>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Temukan Kami Di</h4>
+                <ul class="space-y-2 text-sm">
+                    <li>
+                        <a href="#" class="hover:text-primary transition-colors flex items-center">
+                            <span class="mr-2">🔗</span> Indonetwork
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-primary transition-colors flex items-center">
+                            <span class="mr-2">🔗</span> TripAdvisor
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-primary transition-colors flex items-center">
+                            <span class="mr-2">🔗</span> LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-primary transition-colors flex items-center">
+                            <span class="mr-2">📸</span> Instagram
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-gray-800 text-center text-sm">
@@ -215,5 +410,30 @@
         </div>
     </footer>
 
+    <a href="https://wa.me/62895400520827" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 z-50 flex items-center justify-center group">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        <span class="absolute right-16 bg-gray-900 text-white text-sm py-1 px-3 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
+            Butuh Bantuan?
+        </span>
+    </a>
+
+    <script>
+        function toggleFaq(button) {
+            const answer = button.nextElementSibling;
+            const icon = button.querySelector('span');
+            
+            // Toggle class 'open'
+            answer.classList.toggle('open');
+            
+            // Putar icon + jadi x
+            if (answer.classList.contains('open')) {
+                icon.style.transform = 'rotate(45deg)';
+                button.classList.add('text-primary');
+            } else {
+                icon.style.transform = 'rotate(0deg)';
+                button.classList.remove('text-primary');
+            }
+        }
+    </script>
 </body>
 </html>
